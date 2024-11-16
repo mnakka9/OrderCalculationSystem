@@ -1,0 +1,6 @@
+@base = https://localhost:7001
+
+POST {{base}}/orders/1/calculate
+Accept: application/json
+
+###

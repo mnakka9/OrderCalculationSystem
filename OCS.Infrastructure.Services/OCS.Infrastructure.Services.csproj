@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Riok.Mapperly" Version="4.1.1-next.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="1.2.37" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OCS.Domain\OCS.Domain.csproj" />
+    <ProjectReference Include="..\OCS.Infrastructure.DataAccess\OCS.Infrastructure.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
